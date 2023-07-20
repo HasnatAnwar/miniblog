@@ -1,6 +1,6 @@
 
-# Django Chat Application Backend
-
+# Twitter Clone (Frontend)
+## MiniBlog
 In this app we used python Django framework with third party 
 DRF to make Backend. The main purpose of this how to
 implement the websockets in Django And how to produce the 
