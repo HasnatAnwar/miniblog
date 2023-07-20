@@ -1,71 +1,75 @@
-[# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Django Chat Application Backend
 
-## Available Scripts
+In this app we used python Django framework with third party 
+DRF to make Backend. The main purpose of this how to
+implement the websockets in Django And how to produce the 
+real time senerio in Django.
 
-In the project directory, you can run:
+## Main Libraries
 
-### `npm start`
+- django
+- django-restframework
+- channels
+- redis
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Django rest framework is used to Produce APIs (backend).
+Channels is used for creating the real time senerio (web sockets). Redis is in-memory databased key storage as used as a layer on OS to run channels.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Create a python envirnoment and install it on your PC (windows)
 
-### `npm run build`
+```bash
+    pip install -r requirements.txt
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Real Time Chat 
+- End to end encription
+- See Profile of Sender
+- Update Profile
+- Registration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Acknowledgements
 
-### `npm run eject`
+ - [Django](https://www.djangoproject.com/)
+ - [Django Rest Framework](https://www.django-rest-framework.org/)
+ - [Channels](https://channels.readthedocs.io/en/stable/)
+ - [Redis](https://redis.io)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Documentation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In the prject folder the "docs.json" file Open it in the POSTMAN to see teh documentation.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+And to use WEb socket Real Time senerio see "websocket.txt" file
 
-## Learn More
+## Appendix
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This is Dumy project for my porfolio. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🚀 About Me
+I am a full stack web developer and UI/UX Designer.
+I am Using these tools to work as Developer or Designer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    - React Js (Frontend)
+    - Django rest framework (Backend)
+    - Django (FullStack)
+    - Figma & Adobe XD (UI/UX)
 
-### Making a Progressive Web App
+If you want to hire me Please contact me at any freelance marketplace.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔗 Links
 
-### Advanced Configuration
+- [Fiverr](https://www.fiverr.com/users/markhorworker)
+- [Freelancer](https://www.freelancer.com/u/markhorworker)
+- [Upwork](https://www.upwork.com/freelancers/~01554bb98da4f7ad0f)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-](https://github.com/HasnatAnwar/chatappication_django/edit/master/README.md)https://github.com/HasnatAnwar/chatappication_django/edit/master/README.md
+### Thank You!!
